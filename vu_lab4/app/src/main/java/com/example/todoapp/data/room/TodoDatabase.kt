@@ -6,16 +6,13 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.example.todoapp.data.Todo
 
-@Database(entities = [Todo::class], version = 1, exportSchema = false)
+@Database(entities = [Todo::class], version = 2, exportSchema = false)
 abstract class TodoDatabase : RoomDatabase() {
     abstract fun todoDao(): TodoDao
 
     companion object{
-
-        // For Singleton instantiation
         @Volatile
         private var INSTANCE: TodoDatabase? = null
-
         fun getDatabase(context: Context):TodoDatabase{
             return INSTANCE ?: synchronized(this){
                 val instance = Room.databaseBuilder(

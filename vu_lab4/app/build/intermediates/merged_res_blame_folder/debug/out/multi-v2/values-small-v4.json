@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\AgmisPC\\Documents\\VU_android\\vu_lab4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\AgmisPC\\.gradle\\caches\\transforms-3\\1b0b224398cf32f10e94b4a9c0d6e2dc\\transformed\\material-1.4.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\AgmisPC\\.gradle\\caches\\transforms-3\\308e17582221182b3951775079cfe411\\transformed\\material-1.4.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

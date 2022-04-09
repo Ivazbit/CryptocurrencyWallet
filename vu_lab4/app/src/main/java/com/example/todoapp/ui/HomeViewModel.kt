@@ -15,17 +15,16 @@ import kotlinx.coroutines.launch
 class HomeViewModel(private val todoDataSource: TodoDataSource = Graph.todoRepo) : ViewModel() {
     private val _state = MutableStateFlow(HomeViewState())
     val state : MutableStateFlow<HomeViewState>
-    get() = _state
+        get() = _state
 
     private val todoList = todoDataSource.selectAll
-    var searchValue = MutableStateFlow(state.value.searchValue)
+    //var searchValue = MutableStateFlow(state.value.searchValue)
     private val selected = MutableStateFlow(_state.value.selected)
 
     init {
         viewModelScope.launch {
-            combine(todoList, searchValue, selected){
-                    todoList: List<Todo>,searchValue: String, selected: Boolean ->
-                    HomeViewState(todoList, searchValue,  selected)
+            combine(todoList,selected){ todoList, selected ->
+                HomeViewState(todoList, selected)
             }.collect {
                 _state.value = it
             }
@@ -45,10 +44,10 @@ class HomeViewModel(private val todoDataSource: TodoDataSource = Graph.todoRepo)
         }
     }
 
-    fun onSearchTextChanged(searchValue: String): HomeViewState {
-        HomeViewState().copy(searchValue = searchValue)
-        return state.value.copy(searchValue = searchValue)
-    }
+//    fun onSearchTextChanged(searchValue: String): HomeViewState {
+//        HomeViewState().copy(searchValue = searchValue)
+//        return state.value.copy(searchValue = searchValue)
+//    }
 
     fun deleteTodo(todo: Todo) = viewModelScope.launch {
         todoDataSource.deleteTodo(todo)

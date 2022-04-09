@@ -44,10 +44,6 @@
         "source": "C:\\Users\\AgmisPC\\Documents\\VU_android\\vu_lab4\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\AgmisPC\\Documents\\VU_android\\vu_lab4\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_suche.xml.flat",
-        "source": "C:\\Users\\AgmisPC\\Documents\\VU_android\\vu_lab4\\app\\src\\main\\res\\drawable\\ic_suche.xml"
-    },
-    {
         "merged": "C:\\Users\\AgmisPC\\Documents\\VU_android\\vu_lab4\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\AgmisPC\\Documents\\VU_android\\vu_lab4\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },

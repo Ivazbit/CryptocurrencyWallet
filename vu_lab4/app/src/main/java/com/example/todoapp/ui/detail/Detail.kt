@@ -75,7 +75,7 @@ fun DetailScreenComponent(
         Spacer(modifier = Modifier.size(16.dp))
         Button(onClick = {
             val todo = if (isTodoEdit) Todo(todoText, timeText, isCompleted = false)
-                else Todo( todoText, timeText, false, id = selectedId)
+            else Todo( todoText, timeText, false, id = selectedId)
             onSaveTodo(todo)
             onNavigate()
         }) {

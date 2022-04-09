@@ -13,10 +13,8 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.todoapp.R
 import com.example.todoapp.data.Todo
 
 @Composable
@@ -34,30 +32,31 @@ fun HomeScreen(
         }
     }) {
         LazyColumn() {
-            item {
-                TextField(
-                    value = state.searchValue,
-                    onValueChange = viewModel::onSearchTextChanged,
-                    modifier = Modifier
-                        .fillMaxWidth(),
-                    leadingIcon = {
-                        Icon(
-                            painter = painterResource(id = R.drawable.ic_suche),
-                            contentDescription = null,
-                            modifier = Modifier.padding(end = 6.dp)
-                        )
-                    })
-            }
-            state.filteredTodoList.forEach { todo ->
-                item {
-                    TodoItem(
-                        todo = todo,
-                        onChecked = { viewModel.updateTodo(it, todo.id) },
-                        onDelete = { viewModel.deleteTodo(it) }
-                    )
-                }
+//            item {
+//                TextField(
+//                    value = state.searchValue,
+//                    onValueChange = viewModel::onSearchTextChanged,
+//                    modifier = Modifier
+//                        .fillMaxWidth(),
+//                    leadingIcon = {
+//                        Icon(
+//                            painter = painterResource(id = R.drawable.ic_suche),
+//                            contentDescription = null,
+//                            modifier = Modifier.padding(end = 6.dp)
+//                        )
+//                    })
+//            }
+
+//            state.filteredTodoList.forEach { todo ->
+//                item {
+//                    TodoItem(
+//                        todo = todo,
+//                        onChecked = { viewModel.updateTodo(it, todo.id) },
+//                        onDelete = { viewModel.deleteTodo(it) }
+//                    )
+//                }
                 items(state.todoList){ todo ->
-                   TodoItem(
+                    TodoItem(
                         todo = todo,
                         onChecked = { viewModel.updateTodo(it, todo.id) },
                         onDelete = { viewModel.deleteTodo(it) }
@@ -65,7 +64,6 @@ fun HomeScreen(
                 }
             }
         }
-    }
 }
 
 @Composable

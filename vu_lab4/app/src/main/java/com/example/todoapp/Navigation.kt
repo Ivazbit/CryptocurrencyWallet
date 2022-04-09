@@ -18,17 +18,17 @@ fun TodoNavHost (){
     NavHost(navController = navController, startDestination = NavRoute.Home.route){
         composable(NavRoute.Home.route){
             HomeScreen {
-                    navController.navigate(NavRoute.Detail.route + "/${it?.id?: -1}"){
+                navController.navigate(NavRoute.Detail.route + "/${it?.id?: -1}"){
                 }
             }
         }
         composable(
             NavRoute.Detail.route + "/{id}",
             arguments = listOf(navArgument("id"){type = NavType.LongType})
-            ){
-           DetailScreen(selectedId = it.arguments?.getLong("id") ?: -1) {
+        ){
+            DetailScreen(selectedId = it.arguments?.getLong("id") ?: -1) {
                 navController.navigateUp()
-           }
+            }
         }
     }
 }

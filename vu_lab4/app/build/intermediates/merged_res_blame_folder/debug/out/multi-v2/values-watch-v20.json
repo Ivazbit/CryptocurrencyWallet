@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\AgmisPC\\Documents\\VU_android\\vu_lab4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\AgmisPC\\.gradle\\caches\\transforms-3\\f4fb29fa3c718b5415582623ca386f7c\\transformed\\appcompat-1.4.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\AgmisPC\\.gradle\\caches\\transforms-3\\ab30f8af51c3bd002c26a7cf4e7e05b1\\transformed\\appcompat-1.4.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

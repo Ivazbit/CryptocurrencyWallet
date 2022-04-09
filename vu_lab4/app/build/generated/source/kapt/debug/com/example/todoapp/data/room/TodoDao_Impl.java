@@ -86,7 +86,7 @@ public final class TodoDao_Impl implements TodoDao {
   }
 
   @Override
-  public Object insert(final Todo todo, final Continuation<? super Unit> continuation) {
+  public Object insert(final Todo todo, final Continuation<? super Unit> arg1) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -99,11 +99,11 @@ public final class TodoDao_Impl implements TodoDao {
           __db.endTransaction();
         }
       }
-    }, continuation);
+    }, arg1);
   }
 
   @Override
-  public Object delete(final long id, final Continuation<? super Unit> continuation) {
+  public Object delete(final long id, final Continuation<? super Unit> arg1) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -120,11 +120,11 @@ public final class TodoDao_Impl implements TodoDao {
           __preparedStmtOfDelete.release(_stmt);
         }
       }
-    }, continuation);
+    }, arg1);
   }
 
   @Override
-  public Object deleteAllTodo(final Continuation<? super Unit> continuation) {
+  public Object deleteAllTodo(final Continuation<? super Unit> arg0) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -139,12 +139,12 @@ public final class TodoDao_Impl implements TodoDao {
           __preparedStmtOfDeleteAllTodo.release(_stmt);
         }
       }
-    }, continuation);
+    }, arg0);
   }
 
   @Override
   public Object updateTodo(final boolean isCompleted, final long id,
-      final Continuation<? super Unit> continuation) {
+      final Continuation<? super Unit> arg2) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -165,7 +165,7 @@ public final class TodoDao_Impl implements TodoDao {
           __preparedStmtOfUpdateTodo.release(_stmt);
         }
       }
-    }, continuation);
+    }, arg2);
   }
 
   @Override
