@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.vulab.cryptoapp.common.Constants
 import com.vulab.cryptoapp.common.Resource
+import com.vulab.cryptoapp.domain.model.CoinDetail
 import com.vulab.cryptoapp.domain.use_case.get_coin.GetCoinUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
@@ -44,5 +45,10 @@ class CoinDetailViewModel @Inject constructor(
                 }
             }
         }.launchIn(viewModelScope)
+    }
+
+    fun calculatePrice(coin: CoinDetail?, valueCoin: String): Double {
+        val convertedValue = valueCoin.toDouble() * coin?.price_usd!!
+        return "%.2f".format(convertedValue).toDouble()
     }
 }

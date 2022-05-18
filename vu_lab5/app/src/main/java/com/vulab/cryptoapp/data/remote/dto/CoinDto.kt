@@ -4,7 +4,7 @@ import com.vulab.cryptoapp.domain.model.Coin
 
 data class CoinDto(
     val id: String,
-    val price_usd: String,
+    val price_usd: Double,
     val name: String,
     val rank: Int,
     val symbol: String

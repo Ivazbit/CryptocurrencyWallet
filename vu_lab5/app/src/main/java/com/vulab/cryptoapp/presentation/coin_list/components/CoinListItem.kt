@@ -30,7 +30,7 @@ fun CoinListItem(
     ) {
         Column{
             Text(
-                text = "${coin.rank}. ${coin.name} (${coin.symbol})",
+                text = "${coin.name} (${coin.symbol})",
                 style = MaterialTheme.typography.body1,
                 //jei tekstas buna per didelis, ji sutrumpina
                 overflow = TextOverflow.Ellipsis
