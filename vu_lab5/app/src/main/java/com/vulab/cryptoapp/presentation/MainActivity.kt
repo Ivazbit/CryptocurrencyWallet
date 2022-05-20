@@ -13,7 +13,6 @@ import com.vulab.cryptoapp.presentation.coin_list.CoinListScreen
 import com.vulab.cryptoapp.presentation.ui.theme.CryptoTheme
 import dagger.hilt.android.AndroidEntryPoint
 
-//allows dagger hilt inject dependencies
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

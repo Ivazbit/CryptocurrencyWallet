@@ -43,8 +43,12 @@ MERGED from [com.google.dagger:hilt-android:2.38.1] C:\Users\AgmisPC\.gradle\cac
 MERGED from [androidx.compose.ui:ui-util:1.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\417b3b3a55c877eb457dd852aad82435\transformed\jetified-ui-util-1.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\c8ed363a75d4ea19b834d6cd9c2a41d6\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\89957d110293e444b983a5cda5cac660\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\e86101b8f7644c841b0eb84c7bc139b5\transformed\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\182f12ac7cbe3aa0c6af4e344667c6fd\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\02f866beb3710edbbe401bb456d5062e\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\AgmisPC\.gradle\caches\transforms-3\86a06c9618168bf20c45d9347111628d\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\efa65bc3bb4a148083b7b88460c318d3\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\1816639c78566294e5e09f8bb4e6fd5b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\45bf373c0304a11305308acc5811f3ae\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\200450f8209c25d0a7ca1b13324cb81e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\230fa4e3832a55e0b0c4960109a4234a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -56,8 +60,12 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\AgmisPC\.gradle\caches
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\eb8093f984f27bb80aa922813e0ef383\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\9e4ef545f09cdc113499f10ac2e94393\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\c88edad961b99ff064c8d0cfec21b606\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\f40b6558ead90775923ab66b6ec454f0\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\2a0df0e9c1f064d6d291a16bbab7fc29\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.3.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\9ab17a24235fb74f58341fc63d9158d6\transformed\jetified-activity-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\1bad885e9a928a143dfaadf851906a9c\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\966c2604f54382edf4362c80a3fa97b3\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\2191b397563945b6f07843d35b9add76\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.6.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\a57822c5da0d89ea7c00e42e049cf12d\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\43c0112e467503804e3073611529f731\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\c471d7364fe6bea356a9addd207f4ab4\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
@@ -107,6 +115,10 @@ MERGED from [com.google.android.material:material:1.4.0] C:\Users\AgmisPC\.gradl
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\ef9532358ef0a42d89699a11ddd8afa3\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\faebf836c9785a9f4a715ab5b0aef21a\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\faebf836c9785a9f4a715ab5b0aef21a\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\e86101b8f7644c841b0eb84c7bc139b5\transformed\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\e86101b8f7644c841b0eb84c7bc139b5\transformed\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\182f12ac7cbe3aa0c6af4e344667c6fd\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\182f12ac7cbe3aa0c6af4e344667c6fd\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.6.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\a57822c5da0d89ea7c00e42e049cf12d\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.6.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\a57822c5da0d89ea7c00e42e049cf12d\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\3273479fc227971201edf4ffabc9e8fc\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:25:5-46:19
@@ -233,10 +245,18 @@ MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\AgmisPC\.gradle\
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\c8ed363a75d4ea19b834d6cd9c2a41d6\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\89957d110293e444b983a5cda5cac660\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\89957d110293e444b983a5cda5cac660\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\e86101b8f7644c841b0eb84c7bc139b5\transformed\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\e86101b8f7644c841b0eb84c7bc139b5\transformed\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\182f12ac7cbe3aa0c6af4e344667c6fd\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\182f12ac7cbe3aa0c6af4e344667c6fd\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\02f866beb3710edbbe401bb456d5062e\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\02f866beb3710edbbe401bb456d5062e\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\AgmisPC\.gradle\caches\transforms-3\86a06c9618168bf20c45d9347111628d\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\AgmisPC\.gradle\caches\transforms-3\86a06c9618168bf20c45d9347111628d\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\efa65bc3bb4a148083b7b88460c318d3\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\efa65bc3bb4a148083b7b88460c318d3\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\1816639c78566294e5e09f8bb4e6fd5b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\1816639c78566294e5e09f8bb4e6fd5b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\45bf373c0304a11305308acc5811f3ae\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\45bf373c0304a11305308acc5811f3ae\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\200450f8209c25d0a7ca1b13324cb81e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -259,10 +279,18 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\AgmisPC\.gradle\caches\trans
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\9e4ef545f09cdc113499f10ac2e94393\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\c88edad961b99ff064c8d0cfec21b606\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\c88edad961b99ff064c8d0cfec21b606\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\f40b6558ead90775923ab66b6ec454f0\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\f40b6558ead90775923ab66b6ec454f0\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\2a0df0e9c1f064d6d291a16bbab7fc29\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\2a0df0e9c1f064d6d291a16bbab7fc29\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.3.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\9ab17a24235fb74f58341fc63d9158d6\transformed\jetified-activity-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.3.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\9ab17a24235fb74f58341fc63d9158d6\transformed\jetified-activity-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\1bad885e9a928a143dfaadf851906a9c\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\1bad885e9a928a143dfaadf851906a9c\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\966c2604f54382edf4362c80a3fa97b3\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\966c2604f54382edf4362c80a3fa97b3\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\2191b397563945b6f07843d35b9add76\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\2191b397563945b6f07843d35b9add76\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.6.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\a57822c5da0d89ea7c00e42e049cf12d\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.6.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\a57822c5da0d89ea7c00e42e049cf12d\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\43c0112e467503804e3073611529f731\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
@@ -319,6 +347,12 @@ ADDED from [androidx.compose.ui:ui-tooling:1.0.1] C:\Users\AgmisPC\.gradle\cache
 		ADDED from [androidx.compose.ui:ui-tooling:1.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\f44c54bb08990873fbef06793a479458\transformed\jetified-ui-tooling-1.0.1\AndroidManifest.xml:27:13-36
 	android:name
 		ADDED from [androidx.compose.ui:ui-tooling:1.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\f44c54bb08990873fbef06793a479458\transformed\jetified-ui-tooling-1.0.1\AndroidManifest.xml:26:13-71
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\182f12ac7cbe3aa0c6af4e344667c6fd\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\182f12ac7cbe3aa0c6af4e344667c6fd\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\182f12ac7cbe3aa0c6af4e344667c6fd\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\AgmisPC\.gradle\caches\transforms-3\3273479fc227971201edf4ffabc9e8fc\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\AgmisPC\.gradle\caches\transforms-3\3af03dc1c07cb8bf3fc35f80facb9d19\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34

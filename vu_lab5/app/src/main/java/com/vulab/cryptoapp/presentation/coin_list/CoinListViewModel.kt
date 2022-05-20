@@ -5,6 +5,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.vulab.cryptoapp.common.Resource
+import com.vulab.cryptoapp.domain.model.CoinData
 import com.vulab.cryptoapp.domain.use_case.get_coins.GetCoinsUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
@@ -13,9 +14,9 @@ import javax.inject.Inject
 
 @HiltViewModel
 class CoinListViewModel @Inject constructor(
+    //private val coinRepo: CoinRepo,
     private val getCoinsUseCase: GetCoinsUseCase
 ): ViewModel(){
-
     private val _state = mutableStateOf<CoinListState>(CoinListState())
     val state: State<CoinListState> = _state
 
@@ -40,4 +41,24 @@ class CoinListViewModel @Inject constructor(
             }
         }.launchIn(viewModelScope)
     }
+    fun calculatePrice(coins: List<CoinData>): String {
+        var convertedValue = 0.0
+        coins.forEach { coin ->
+            convertedValue += coin.price_usd * coin.quantity
+        }
+
+        return "%.2f".format(convertedValue)
+    }
+
+    //room
+//
+//    private val _response = MutableLiveData<CoinData>()
+//    val response: LiveData<CoinData> = _response
+//
+//    //insert user details to room database
+//    fun insertCoinDetails(coins: CoinData){
+//        viewModelScope.launch(Dispatchers.IO) {
+//            _response.postValue(coinRepo.createCoinRecords(coins))
+//        }
+//    }
 }

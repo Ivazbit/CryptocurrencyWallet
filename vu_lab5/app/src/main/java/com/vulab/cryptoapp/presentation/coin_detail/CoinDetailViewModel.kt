@@ -47,8 +47,8 @@ class CoinDetailViewModel @Inject constructor(
         }.launchIn(viewModelScope)
     }
 
-    fun calculatePrice(coin: CoinDetail?, valueCoin: String): Double {
+    fun calculatePrice(coin: CoinDetail?, valueCoin: String): String {
         val convertedValue = valueCoin.toDouble() * coin?.price_usd!!
-        return "%.2f".format(convertedValue).toDouble()
+        return "%.2f".format(convertedValue)
     }
 }

@@ -7,7 +7,7 @@ data class CoinDto(
     val price_usd: Double,
     val name: String,
     val rank: Int,
-    val symbol: String
+    val symbol: String,
 )
 
 fun CoinDto.toCoin(): Coin {

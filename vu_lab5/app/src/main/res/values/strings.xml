@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">CryptocurrencyAppYT</string>
     <string name="tags">Tags</string>
+    <string name="usd">USD</string>
+    <string name="balance">My Balance</string>
+    <string name="total_balance">Total balance:</string>
 </resources>
